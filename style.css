@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.myimage{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 200px;
+    box-shadow: 10px 10px 10px yellow;
+}
+
+h1{
+    text-decoration: aqua;
+    text-align: center;
+    
+
+
+}
+
