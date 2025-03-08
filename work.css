@@ -12,4 +12,18 @@
     position: relative;
     left: 200px}
 
+.section1{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border :  13px double red;
+    margin-top: 30px;
+    border-radius: 20px;
+    border-top-left-radius: 30px;
+    box-shadow :10px 10px 16px 3px green;
+
+}
+        
+    
+
 
