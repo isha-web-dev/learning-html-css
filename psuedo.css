@@ -1,0 +1,19 @@
+.head:hover{
+    color: red;
+}
+.btn:hover{
+    background-color: black;
+    color: white ;
+    border-radius: 3px;
+    border: 2px solid red;
+}
+.cointainer h1{
+    background-color: lightgray;
+}
+.cointainer h1  :last-child{
+    background-color: red;
+}
+ul li:nth-child(even){
+    background-color: blue;
+    color: white;
+}

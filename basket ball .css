@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.4;
+    font-weight: 300;
+
+
+}
+.hero_section{
+    background-image: url(images/image12.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text_container{
+    color: black;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.lg_text{
+
+}
+.nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+}
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    display: flex ;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none;
+}
+.button{
+    display: padding;
+}
+
+
+.ch2 ul{
+    display: flex ;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none;
+}
