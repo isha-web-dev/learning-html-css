@@ -1,0 +1,28 @@
+.para::first-letter{
+    font-size: 50px;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+.pra::first-line{
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+    font-family: "Boldonse", system-ui;
+    font-family: "Winky Sans", sans-serif;
+
+
+
+}
+input::placeholder{
+
+  color: red;
+
+}
+.name::after{
+    content: chouhan;
+    color: red;
+}
+.name::before{
+    content: "Mrs";
+}

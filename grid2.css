@@ -1,0 +1,31 @@
+.grid-parent{
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    
+}
+   
+
+.ch1, .ch2 ,.ch3,.ch4,.ch5,.ch6,.ch7,.ch8{
+    background-color: blue;
+    border: 2px solid black;
+    color: white;
+    
+
+}
+.ch4{
+    grid-column-start:1;
+    grid-column-end:3 ;
+}
+.ch5{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+         
+}
+.ch8{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

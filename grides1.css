@@ -1,0 +1,19 @@
+.wapper{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+.wapper div{
+    background-color: red;
+    border: 2px solid black;
+    height: 200px;
+}
+@media screen and (min-width: 400px) and (max-width: 750px){
+    .wapper{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+@media screen and (max-width: 399px){
+    .wapper{
+        grid-template-columns: repeat(1,auto);
+    }
+}
